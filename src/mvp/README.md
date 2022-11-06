@@ -1,3 +1,7 @@
+# MVP
+
+Complete programs that serve some real, albeit limited, purpose.
+
 ## four_by_four.py
 
 Reasonably generic template for solving 4x4 KenKen puzzles
