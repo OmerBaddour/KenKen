@@ -1,2 +1,3 @@
 venv_kenken
 .vscode
+*__pycache__
