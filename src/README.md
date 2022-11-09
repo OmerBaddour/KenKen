@@ -1,6 +1,10 @@
-# MVP
+# src
 
 Complete programs that serve some real, albeit limited, purpose.
+
+`utils` contains utilities written for KenKen.
+
+The bulk of the code was adapted from the Sudoku section of [this page](https://ericpony.github.io/z3py-tutorial/guide-examples.htm#sudoku)
 
 ## four_by_four.py
 
@@ -70,3 +74,22 @@ To adapt this program for solving other 9x9 puzzles, replace all constraints wit
 - Constraints with subtraction are of the form [z3.And(z3_abs(X[a][b] - X[c][d]) == y)]
 - Constraints with multiplication are of the form [z3.And(X[a][b] \* X[c][d] == y)]
 - Constraints with division are of the form [divide_constraint(X[a][b], X[c][d], y)]
+
+## four_by_four_with_mult_div.py
+
+`four_by_four_with_mult_div.py` with util functions for all constraints.
+
+To adapt this program for solving other 4x4 puzzles, replace all constraints with those for the specific problem instance.
+
+- Constraints with addition use sum_constraint
+- Constraints with subtraction use minus_constraint
+- Constraints with multiplication use product_constraint
+- Constraints with division use division_constraint
+
+### Usage
+
+Modify the source code to match the constraints of the 4x4 problem instance you'd like to solve
+
+```
+$ python four_by_four_with_mult_div.py
+```

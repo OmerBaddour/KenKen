@@ -8,8 +8,6 @@ To adapt this program for solving other 4x4 puzzles, replace all constraints wit
 - Constraints with subtraction are of the form [z3.And(z3_abs(X[a][b] - X[c][d]) == y)]
 - Constraints with multiplication are of the form [z3.And(X[a][b] * X[c][d] == y)]
 - Constraints with division are of the form [divide_constraint(X[a][b], X[c][d], y)]
-
-The bulk of the code was adapted from the Sudoku section of this page https://ericpony.github.io/z3py-tutorial/guide-examples.htm#sudoku
 """
 
 import z3
