@@ -93,3 +93,7 @@ Modify the source code to match the constraints of the 4x4 problem instance you'
 ```
 $ python four_by_four_with_mult_div.py
 ```
+
+## kenken_image_processor.ipynb
+
+Screenshot of image of KenKen puzzle from https://www.kenkenpuzzle.com/game to solution! Follow the markdown at the top of the notebook for good information and usage instructions.

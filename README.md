@@ -19,4 +19,4 @@ $ cd KenKen
 $ source venv_kenken/bin/activate
 ```
 
-Find an [MVP program](https://github.com/OmerBaddour/KenKen/tree/main/src/mvp) that's suitable for your use-case, and follow its instructions.
+Find a [program](https://github.com/OmerBaddour/KenKen/tree/main/src/) that's suitable for your use-case, and follow its instructions.
