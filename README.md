@@ -19,4 +19,4 @@ $ cd KenKen
 $ source venv_kenken/bin/activate
 ```
 
-Find a [program](https://github.com/OmerBaddour/KenKen/tree/main/src/) that's suitable for your use-case, and follow its instructions.
+Find a [program](https://github.com/OmerBaddour/KenKen/tree/main/src/) that's suitable for your use-case, and follow its instructions. In my opinion the most interesting and useful program is [kenken_image_processor.ipynb](https://github.com/OmerBaddour/KenKen/blob/main/src/kenken_image_processor.ipynb), which takes a screenshot of a KenKen puzzle instance as input, parses it, and outputs a solution.
